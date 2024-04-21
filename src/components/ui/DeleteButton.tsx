@@ -1,7 +1,7 @@
-'use client';
+'use client'
 
-import { FC, ButtonHTMLAttributes } from 'react';
-import { Button } from './button';
+import { FC, ButtonHTMLAttributes } from 'react'
+import { Button } from './button'
 
 export interface DeleteButtonProps
   extends ButtonHTMLAttributes<HTMLButtonElement> {}
@@ -15,7 +15,7 @@ const DeleteButton: FC<DeleteButtonProps> = ({ className, ...props }) => {
     >
       DELETE
     </Button>
-  );
-};
+  )
+}
 
-export { DeleteButton };
+export { DeleteButton }

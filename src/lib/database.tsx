@@ -1,10 +1,9 @@
-
 // hier Liste aller Pokemon
 // list pokemon = [{}]
 
-async function GetPokemon(name:string) {
+async function GetPokemon(name: string) {
   const pokemon = {}
-  return pokemon;
+  return pokemon
 }
 
-export { GetPokemon };
+export { GetPokemon }

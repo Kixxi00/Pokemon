@@ -25,9 +25,16 @@
       "@/components/*": ["./src/components/*"],
       "@/lib/*": ["./src/lib/*"],
       "@/config/*": ["./src/config/*"],
-      "@/styles/*": ["./src/styles/*"],
+      "@/styles/*": ["./src/styles/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "**/*.js", "src/components/Pokedex/PokedexPage"],
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts",
+    "**/*.js",
+    "src/components/Pokedex/PokedexPage"
+  ],
   "exclude": ["node_modules"]
 }

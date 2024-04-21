@@ -1,27 +1,27 @@
 export type SiteConfig = typeof siteConfig
 
 export const siteConfig = {
-  name: "OptiBus",
-  description:
-    "Travel around the world!",
+  name: 'OptiBus',
+  description: 'Travel around the world!',
   mainNav: [
     {
-      title: "Home",
-      href: "/",
+      title: 'Home',
+      href: '/'
     },
     {
-      title:"Admin",
-      href:"/admin"},
-    {
-      title: "Impressum",
-      href: "/impressum",
+      title: 'Admin',
+      href: '/admin'
     },
     {
-      title: "Privacy",
-      href: "/dataprivacy",
+      title: 'Impressum',
+      href: '/impressum'
     },
+    {
+      title: 'Privacy',
+      href: '/dataprivacy'
+    }
   ],
   links: {
-    github: "https://github.com/teshiification/optibus",
-  },
+    github: 'https://github.com/teshiification/optibus'
+  }
 }

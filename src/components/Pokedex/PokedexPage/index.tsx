@@ -1,2 +1,2 @@
 // Export der Komponenten in PokedexPage
-export * from "./PokedexPage";
+export * from './PokedexPage'
