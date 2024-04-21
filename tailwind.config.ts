@@ -106,5 +106,5 @@ export default {
     },
   ],
   // eslint-disable-next-line global-require
-  plugins: [require('@headlessui/tailwindcss'),require('tailwindcss-animate'), require('tailwindcss-bg-patterns')],
+  plugins: [require('tailwindcss-animate'), require('tailwindcss-bg-patterns'),require('@codaworks/react-glow/tailwind')],
 } satisfies Config;
