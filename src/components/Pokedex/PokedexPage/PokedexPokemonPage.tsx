@@ -12,14 +12,14 @@ import {
 import { useEffect, useState } from 'react'
 
 // Erstellung Komponente(Funktion) "PokedexPage" die asynchron ist
-export const PokedexPage = () => {
+export const PokedexPokemonPage = ({ id }: { id: number }) => {
   const [pokemon, setPokemon] = useState<Pokemon>()
   const [encounters, setEncounters] = useState<any[]>()
 
   useEffect(() => {
     const fetchData = async () => {
       const api = new PokemonClient()
-      const pokemonData: Pokemon = await api.getPokemonByName('pikachu')
+      const pokemonData: Pokemon = await api.getPokemonById(id)
       setPokemon(pokemonData)
 
       const encounterResponse = await fetch(

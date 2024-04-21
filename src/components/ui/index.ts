@@ -1,6 +1,3 @@
-export * from './LandingPage'
-export * from './Admin'
-export * from './Tickets'
 export * from './avatar'
 export * from './button'
 export * from './dropdown-menu'
